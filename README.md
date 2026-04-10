@@ -1,20 +1,20 @@
-# 🚖 Uber Dashboard Analysis
+# 🚖 Uber Ride Analytics Dashboard (All Vehicle Types)
 
 ## 📊 Project Overview
 
-This project is a data analysis dashboard based on Uber Auto ride data. The dashboard provides insights into bookings, revenue, ride status, customer ratings, and operational performance.
+This project presents a comprehensive data analysis dashboard for Uber ride services across multiple vehicle types such as Auto, Bike, and Car.
 
-The goal of this project is to analyze ride trends and identify key business insights that can help improve decision-making.
+The dashboard provides key insights into booking performance, revenue trends, ride status, and customer experience to support data-driven business decisions.
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze completed vs cancelled rides
-* Track revenue generation
-* Understand ride demand trends over months
-* Identify top pickup and drop locations
-* Evaluate customer and driver ratings
+* Analyze ride performance across different vehicle types
+* Monitor completed, cancelled, and incomplete bookings
+* Track monthly revenue trends
+* Identify high-demand pickup and drop locations
+* Evaluate customer and driver satisfaction
 
 ---
 
@@ -22,12 +22,13 @@ The goal of this project is to analyze ride trends and identify key business ins
 
 The dataset includes:
 
-* Booking details
-* Ride status (Completed, Cancelled, Incomplete)
+* Booking ID and ride details
+* Vehicle types (Auto, Bike, Car, etc.)
+* Booking status (Completed, Cancelled, Incomplete)
+* Revenue and fare details
 * Distance traveled
-* Revenue data
-* Customer and driver ratings
-* Location data
+* Customer & driver ratings
+* Pickup and drop locations
 
 ---
 
@@ -35,34 +36,36 @@ The dataset includes:
 
 * ✅ 23K Completed Bookings
 * ❌ 14K Lost Bookings
-* 💰 13M Revenue
-* 📍 626K Total Distance
-* 📏 24.62 Avg Distance
+* 💰 13M Total Revenue
+* 📍 626K Total Distance Covered
+* 📏 24.62 Average Distance per Ride
 
 ---
 
 ## 📊 Dashboard Features
 
-* Monthly trend analysis of bookings and revenue
-* Ride status distribution (Completed, Cancelled, Incomplete)
-* Revenue by vehicle type
-* Top pickup & drop locations
-* Customer and driver rating analysis
-* Interactive filters (Month/Quarter, Vehicle Type)
+* 📅 Monthly booking trend analysis
+* 💰 Revenue analysis by vehicle type
+* 🚗 Ride status breakdown (Completed, Cancelled, Incomplete)
+* 📍 Top pickup & drop locations identification
+* ⭐ Customer & driver rating analysis
+* 🎛️ Interactive filters (Vehicle Type, Month/Quarter)
 
 ---
 
 ## 🔍 Key Insights
 
-* Majority of rides are successfully completed, but a significant number of bookings are lost.
-* Revenue remains relatively stable across months.
-* Certain locations have higher pickup/drop demand.
-* Customer ratings are higher than driver ratings, indicating scope for driver experience improvement.
+* Different vehicle types contribute differently to overall revenue.
+* A significant portion of bookings are lost, indicating potential operational issues.
+* Peak booking trends vary across months.
+* Certain locations dominate in ride demand.
+* Customer ratings (4.45) are slightly higher than driver ratings (4.23), highlighting improvement areas.
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
-* Power BI (for dashboard creation)
-* Excel / CSV (for dataset handling)
+* Power BI (Dashboard & Visualization)
+* Excel / CSV (Data Processing)
 
+---
